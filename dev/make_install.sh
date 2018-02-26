@@ -5,12 +5,14 @@ ICO=`cat lang.conf | sed -n '/Icon=/ s/Icon=//p'`
 
 source "$(dirname $0)/funcs.sh"
 
-if [ -z "$DEST" ]; then
+if [ -z "$DESTDIR" ]; then
 	if [ "x$USER" == "xroot" ]; then
 		DEST="$(root_install_path)/$LNG"
 	else
 		DEST="$(user_install_path)/$LNG"
 	fi
+else
+	DEST="$DESTDIR/mui/$LNG"
 fi
 
 function install_file
