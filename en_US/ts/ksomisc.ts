@@ -882,14 +882,15 @@ The button icon, command group and task window position of each scheme are diffe
         <source>Microsoft PowerPoint 97-2003 Presentation</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
 	<source>Microsoft PowerPoint 97-2003 SlideShow</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+    <message>
         <source>Microsoft PowerPoint 97-2003 Template</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+    <message>
         <source>Microsoft PowerPoint Macro-Enabled Slide</source>
         <translation type="unfinished"></translation>
     </message>
